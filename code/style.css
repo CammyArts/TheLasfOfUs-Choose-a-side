@@ -1,0 +1,9 @@
+body{
+    background-image: url(/tlou.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+a:hover{
+    opacity: 30%;
+}
