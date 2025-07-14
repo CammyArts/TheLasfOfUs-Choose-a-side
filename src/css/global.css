@@ -7,4 +7,5 @@ body{
     background-image: url(/src/img/tlou.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgb(12, 12, 12);
 }

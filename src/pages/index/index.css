@@ -6,7 +6,7 @@
   justify-content: center; /* centraliza tudo (mas logo empurra) */
   position: relative;
   height: 50px;
-  background: linear-gradient( rgba(255, 228, 196, 0.8), rgba(255, 255, 255, 0.0));
+  background: linear-gradient( rgba(255, 250, 229, 0.3), rgba(255, 255, 255, 0.0));
 }
 
 #logo {
@@ -20,7 +20,9 @@
   text-align: center;
   margin: 0 auto;
 }
-
+section{
+    flex: 1;
+}
 
 article{
     display: flex;
