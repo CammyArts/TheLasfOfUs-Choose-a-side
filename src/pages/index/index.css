@@ -1,0 +1,66 @@
+@import '/src/css/global.css';
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centraliza tudo (mas logo empurra) */
+  position: relative;
+  height: 50px;
+  background: linear-gradient( rgba(255, 228, 196, 0.8), rgba(255, 255, 255, 0.0));
+}
+
+#logo {
+  width: 50px;
+  position: absolute;
+  left: 20px; /* distancia da borda esquerda */
+}
+
+.titulo {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+}
+.button {
+  border: none;
+  color: rgba(243, 240, 227, 0.1);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 40%;
+  height: 250px;
+}
+
+.button1 {
+  background-color: rgba(243, 240, 227, 0.1);; 
+  color: black; 
+  border: 2px solid #04AA6D;
+}
+
+.button1:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.button2 {
+  background-color: rgba(243, 240, 227, 0.1);; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
