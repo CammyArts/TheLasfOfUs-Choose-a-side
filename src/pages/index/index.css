@@ -1,4 +1,15 @@
-@import './src/css/global.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./src/img/tlou.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(12, 12, 12);
+}
 
 .header {
   display: flex;
@@ -8,6 +19,7 @@
   height: 50px;
   background: linear-gradient( rgba(255, 250, 229, 0.3), rgba(255, 255, 255, 0.0));
 }
+
 
 #logo {
   width: 50px;
