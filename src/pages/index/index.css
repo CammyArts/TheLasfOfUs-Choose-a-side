@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(./src/img/tlou.jpg);
+    background-image: url("https://i.ytimg.com/vi/Gq4votQUlC0/maxresdefault.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgb(12, 12, 12);
